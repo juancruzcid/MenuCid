@@ -1,11 +1,13 @@
 import React from "react";
 
-export default function ItemListContainer() {
+export default function ItemListContainer({mensaje}) {
+
+    let msj = mensaje;
 
     return(
 
     <>
-    <p>LISTA</p>
+    <p>{msj}</p>
     </>   
     );
 }

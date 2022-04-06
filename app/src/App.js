@@ -12,7 +12,7 @@ export default function App() {
   return (
     <>
     <NavBar></NavBar>
-    <ItemListContainer></ItemListContainer>
+    <ItemListContainer mensaje={"Listado de prueba."}></ItemListContainer>
     
     </>
 
